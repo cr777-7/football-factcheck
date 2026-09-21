@@ -1,0 +1,37 @@
+{
+  "timeout_seconds": 90,
+  "retries": 1,
+  "batch_size": 8,
+  "max_workers": 4,
+  "max_tokens": 4096,
+  "models": [
+    {
+      "name": "deepseek",
+      "model": "YOUR_DEEPSEEK_MODEL_ID",
+      "endpoint": "https://YOUR_GATEWAY_HOST/v1/chat/completions",
+      "api_key_env": "FOOTBALL_API_KEY",
+      "enabled": true
+    },
+    {
+      "name": "claude",
+      "model": "YOUR_CLAUDE_MODEL_ID",
+      "endpoint": "https://YOUR_GATEWAY_HOST/v1/chat/completions",
+      "api_key_env": "FOOTBALL_API_KEY",
+      "enabled": true
+    },
+    {
+      "name": "gemini",
+      "model": "YOUR_GEMINI_MODEL_ID",
+      "endpoint": "https://YOUR_GATEWAY_HOST/v1/chat/completions",
+      "api_key_env": "FOOTBALL_API_KEY",
+      "enabled": true
+    },
+    {
+      "name": "gpt",
+      "model": "YOUR_GPT_MODEL_ID",
+      "endpoint": "https://YOUR_GATEWAY_HOST/v1/chat/completions",
+      "api_key_env": "FOOTBALL_API_KEY",
+      "enabled": true
+    }
+  ]
+}

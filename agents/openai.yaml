@@ -1,0 +1,6 @@
+interface:
+  display_name: "足球信息核查"
+  short_description: "多模型独立审阅足球信息，联网核实证据并生成逐项结论和修正建议"
+  default_prompt: "请使用 $football-factcheck 核查以下足球信息，列出事实错误、证据不足项、来源及修正建议。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,18 @@
+.env
+.env.*
+!.env.example
+config.json
+config.local*.json
+outputs/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Root-level legacy runtime outputs; examples remain shareable.
+/claims.json
+/model-results.json
+/report.json
+/report.md
+/report.xlsx
+/.credential-*
